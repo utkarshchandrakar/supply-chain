@@ -1,7 +1,10 @@
 # Supply Chain Management
 	
- 	
+#UPDATED AS PER REMIX IDE (pragma solidity >=0.4.22 <0.6.0;)
  ------------------------		
+ IT HAS BEEN NOW UPDATED AS PER REMIX IDE (pragma solidity >=0.4.22 <0.6.0;) by 
+ 
+ UTKARSHCHANDRAKAR
 
 Supply chain management on blockchain using Angular 4 + Truffle + IPFS + Ethereum
 
