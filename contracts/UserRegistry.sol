@@ -1,5 +1,4 @@
-pragma solidity ^0.4.2;
-
+pragma solidity >=0.4.22 <0.6.0;
 contract UserRegistry {
   address public owner = msg.sender;
 
@@ -11,11 +10,11 @@ modifier onlyBy(address _account)
         _;
     }
 
-  function setRole(string addr, string role) onlyBy(owner) {
+  function setRole(string memory  addr, string memory role) onlyBy(owner) public {
     registry[addr] = role;
   }
 
-  function getRole(string addr) constant returns(string) {
+  function getRole(string memory addr) public view returns(string memory) {
     return registry[addr];
   }
 }
